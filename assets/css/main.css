@@ -3364,6 +3364,7 @@ input, select, textarea {
 		}
 
 /* Header */
+	
 
 	#header {
 		display: -moz-flex;
@@ -3374,7 +3375,9 @@ input, select, textarea {
 		cursor: default;
 		padding: 1.75em 2em;
 	}
-
+		#header.front-page{
+			display: none;
+		}
 		#header > .title {
 			border: 0;
 			color: #ffffff;
@@ -3429,6 +3432,9 @@ input, select, textarea {
 
 			#header {
 				padding: 1em 2em;
+			}
+			#header.front-page{
+				display: block;
 			}
 
 		}
